@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sagun portfolio</title>
+    <link rel="icon" href="sagun2.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="pp.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="jquery-3.6.4.min.js"></script>
+    <!-- <script type="text/javascript" src="pp.js"></script>  -->
+    <style>
+        .container{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+ <!-- header section -->
+   <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav class="navbar">
+        <a href="#Home" class="active">Home</a>
+        <a href="#About">About</a>
+        <a href="#Services">Services</a>
+        <a href="#Portfolio">Portfolio</a>
+        <a href="#Contact Me">Contact Me</a>
+    </nav>
+   </header>
+<!-- home section -->
+   <section class="home" id="Home">
+<div class="homecontent">
+    <h3 class="heading">Hello ,Its Me</h3>
+    <h1><span>Sagun Kumar</span></h1>
+    <h3>And I am a <span><br>Frontend Developer</span></h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eum quaerat possimus omnis esse repellendus est vel dolore, maxime doloremque.  Ratione ex sequi quae quas inventore molestias perferendis fuga illum.</p>
+    <div class="social-media">
+        <a href="https://www.facebook.com/ssagun.kumar/" target="_blank"><i class='bx bxl-facebook' ></i></a>
+        <a href="https://www.instagram.com/ssagunkumar/" target="_blank"><i class='bx bxl-instagram'></i></a>
+        <a href="https://www.linkedin.com/in/sagun-kumar-08ab44229/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+        <a href="https://web.telegram.org/a/" target="_blank"><i class='bx bxl-telegram'></i></a>
+    </div>
+    <a href="sagun-resume.pdf" download class="btn">Download CV </a>
+    <a href="neha.mp4" class="btn">Video Introduction </a>
+</div>
+<div class="home-image">
+    <img src="sagun1.png" alt="">
+</div>
+   </section>
+<!-- about section -->
+   <section class="about" id="About">
+    <div class="about-img">
+        <img src="developer.png" alt="">
+    </div>
+    <div class="about-content">
+        <h2 class="heading  ">About <span>Me
+        </span></h2>
+        <h3>Frontend Developer</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio dolorem sequi, maiores quas veniam consectetur? Consequuntur voluptates aut maxime ullam inventore expedita ratione itaque fugit quis, reprehenderit iure aperiam.</p>
+        <a href="" class="btn">Read More</a>
+    </div>
+    </section>
+<!-- services section design -->
+    <section class="services" id="Services">
+    <h2 class="heading">Our Services</h2>
+    <div class="service-container">
+        <div class="service-box">
+            <i class='bx bx-code-alt'></i>
+            <h3> Web Development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, sequi at tempora laborum consequatur eum neque alias recusandae fugit optio, quo veritatis fugiat velit, deleniti nulla eveniet nihil modi voluptatem.</p>
+            <a href="" class="btn">Read More</a>
+        </div>
+        <div class="service-box">
+            <i class='bx bx-palette'></i>
+            <h3>painting</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, sequi at tempora laborum consequatur eum neque alias recusandae fugit optio, quo veritatis fugiat velit, deleniti nulla eveniet nihil modi voluptatem.</p>
+            <a href="" class="btn">Read More</a>
+        </div>
+        <div class="service-box">
+            <i class='bx bx-bar-chart-alt'></i>
+            <h3>Digital Marketing </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, sequi at tempora laborum consequatur eum neque alias recusandae fugit optio, quo veritatis fugiat velit, deleniti nulla eveniet nihil modi voluptatem.</p>
+            <a href="" class="btn">Read More</a>
+        </div>
+    </div>
+    </section>
+<!-- portfolio section -->
+     <section class="portfolio" id="Portfolio">
+    <h2 class="heading" >Latest Projects</h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="project1.jpg" alt="">
+            <div class="about-project">
+                <h3>My Portfolio</h3>
+                <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nisi eos dolor sit. Officia, odit cumque consequatur odio, suscipit laborum dolor sapiente consectetur vero quis eos quam in modi molestias.</b></p>
+            </div>
+            
+        </div>
+        <div class="portfolio-box">
+            <img src="project2.jpg" alt="">
+            <div class="about-project">
+                <h3>My Portfolio</h3>
+                <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nisi eos dolor sit. Officia, odit cumque consequatur odio, suscipit laborum dolor sapiente consectetur vero quis eos quam in modi molestias.</b></p>
+            </div>
+            
+        </div>
+     <div>
+    </portfolio>
+    
+      </section>
+<!-- contact section -->
+<section class="contact" id="Contact Me">
+    <h2 class="heading">Contact Me!</h2>
+    <form action="#" onsubmit="myfunction(event)">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name" id="name">
+            <input type="email" placeholder="Email Id" id="email">
+        </div>
+        <div class="input-box">
+            <input type="number" placeholder="Contact Number" id="number">
+            <input type="text" placeholder="Subject" id="subject">
+        </div>
+        <textarea name="" id="area" cols="30" rows="10" placeholder="Your Message" ></textarea>
+      <input  type="submit" value="Send Messaage" class="btn">
+
+    </form>
+
+</section>
+<!-- footer section -->
+<footer class="footer" id="footer">
+<div class="footer-text">
+    <p>Copyright &copy; 2023 by Sagun | All Rights Reserved </p>
+
+</div>
+<div class="footer-icon">
+<a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+</div>
+</footer>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script >
+let menuicon =document.querySelector('#menu-icon');
+let navbar =document.querySelector('.navbar');
+menuicon.onclick=()=>{
+    menuicon.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
+};
+let sections = document.querySelectorAll('section');
+let navLinks = document.querySelectorAll('header nav a');
+
+
+
+    let header=document.querySelector('header');
+    header.classList.toggle('sticky',window.scrollY>100);
+
+    menuicon.classList.remove('bx-x');
+    navbar.classList.remove('active');
+
+ScrollReveal({ 
+    reset:true,
+    distance:'80px',
+    duration:2000,
+    delay:200
+});
+ScrollReveal().reveal('.homecontent,.heading', {origin:'top'});
+ScrollReveal().reveal('.home-image,.service-container,.portfolio-box,.contact form', {origin:'top'});
+ScrollReveal().reveal('.homecontent h1,.about-img', {origin:'left'});
+function welcome(){
+    window.open("neha.mp4");
+}
+</script>
+<script type="text/javascript">
+    function myfunction(event){
+        event.preventDefault();
+        var name=document.getElementById("name").value;
+        var eamil=document.getElementById("email").value;
+        var number=document.getElementById("number").value;
+        var subject=document.getElementById("subject").value;
+        var area=document.getElementById("area").value;
+        localStorage.setItem('name',name);
+        localStorage.setItem('mail',email);
+        localStorage.setItem('num',number);
+        localStorage.setItem('sub',subject);
+        localStorage.setItem('area',area);
+    }
+</script>
+</body>
+ <!-- <video width="400" height="200" controls>
+    <source src="neha.mp4" type="video/mp4"></video>  -->
+
+</html>
